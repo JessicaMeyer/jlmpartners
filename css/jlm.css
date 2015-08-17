@@ -1,0 +1,72 @@
+/*Roboto 100, 300, 400, 500, 700, 900*/
+
+/* navigation */
+
+.logo {
+	vertical-align: left;
+	height: 80px;
+	width: 160px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-top: 3px;
+}
+
+.nav-link1 {
+	float: right;
+	margin-top: 30px;
+	margin-right: 30px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+.nav-link2 {
+	float: right;
+	margin-top: 30px;
+	margin-right: 30px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+/* hero */
+
+.hero-image {
+  height: 500px;
+  width: 100%;
+  background-image:url("https://raw.githubusercontent.com/JessicaMeyer/jlmpartners/master/img/jlm_hero.png");
+  background-repeat: no-repeat;;
+  background-size: cover;
+  background-position: center;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.hero-wording {
+	margin-top: 150px;
+}
+
+.hero-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+  font-size: 25px;
+  float: right;
+}
+
+.hero-text{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #FFFFFF;
+  font-size: 20px;
+  float: right;
+  clear: both;
+}
+
+
+
+
+
+
+
+
+
