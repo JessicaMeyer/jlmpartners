@@ -92,16 +92,19 @@
 /* planet fitness section */
 
 .pf-section {
-	height: 500px;
 	background-color: rgba(91, 27, 87, 0.13);
+	width: 100%;
 }
 
-.pf-section1 {
+.pf-text-section1 {
    font-family: 'Roboto', sans-serif;
    font-weight: 300;
    font-size: 18px;
    color: #757579;
+   margin-left: -118px;
 }
 
-
+.pf-logo {
+	margin-left: 60px;
+}
 
