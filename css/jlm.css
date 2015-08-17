@@ -79,6 +79,7 @@
    font-weight: 300;
    font-size: 18px;
    color: #757579;
+   line-height: 30px;
 }
 
 .transaction-link {
@@ -102,9 +103,22 @@
    font-size: 18px;
    color: #757579;
    margin-left: -118px;
+   line-height: 30px;
 }
 
-.pf-logo {
-	margin-left: 60px;
+hr {
+	border-top: 1px solid #757579;
+	width: 80%;
+	vertical-align: center;
+	margin: auto;
 }
+
+.pf-text-section2 {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 300;
+   font-size: 18px;
+   color: #757579;
+   line-height: 30px;
+}
+
 
