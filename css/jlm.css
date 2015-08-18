@@ -1,5 +1,6 @@
 /*Roboto 100, 300, 400, 500, 700, 900*/
 
+/* HOME PAGE */
 /* navigation section */
 
 .logo {
@@ -174,7 +175,21 @@ hr {
    text-align: right;
 }
 
+/* TEAM PAGE */
 
+.bio-name {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 500;
+   font-size: 23px;
+   color: #5B1B57;
+}
 
-
+.bio-text {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+   font-size: 17px;
+   color: #757579;
+   line-height: 30px;
+   
+}
 
