@@ -98,7 +98,12 @@
 
 .pf-section {
 	background-color: rgba(91, 27, 87, 0.13);
-	width: 100%;
+	/*width: 85%;
+    margin: auto;*/
+}
+
+.pf-logo {
+	padding-bottom: 5px;
 }
 
 
@@ -177,19 +182,49 @@ hr {
 
 /* TEAM PAGE */
 
+.team {
+	/*background-color: rgba(91, 27, 87, 0.13);*/
+	/*width: 85%;
+    margin: auto;*/
+}
+
+.team-section-title {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 22px;
+	text-align: center;
+	margin-top: 35px;
+	margin-bottom: 30px;
+	color: rgba(186, 186, 191, 0.92);
+	background-color: #5b1b57;
+}
+
 .bio-name {
    font-family: 'Roboto', sans-serif;
    font-weight: 500;
-   font-size: 23px;
+   font-size: 20px;
    color: #5B1B57;
+   text-align: center;
+}
+
+.bio-title {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 300;
+   font-size: 18px;
+   color: #5B1B57;
+   text-align: center;
 }
 
 .bio-text {
    font-family: 'Roboto', sans-serif;
    font-weight: 400;
-   font-size: 17px;
+   font-size: 16px;
    color: #757579;
    line-height: 30px;
-   
+   width: 85%;  
+}
+
+.footer-team {
+	background-color: rgba(186, 186, 191, 0.92);
 }
 
