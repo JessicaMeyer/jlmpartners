@@ -1,6 +1,7 @@
 /*Roboto 100, 300, 400, 500, 700, 900*/
 
 /* HOME PAGE */
+
 /* navigation section */
 
 .logo {
@@ -98,8 +99,6 @@
 
 .pf-section {
 	background-color: rgba(91, 27, 87, 0.13);
-	/*width: 85%;
-    margin: auto;*/
 }
 
 .pf-logo {
@@ -182,11 +181,6 @@ hr {
 
 /* TEAM PAGE */
 
-.team {
-	/*background-color: rgba(91, 27, 87, 0.13);*/
-	/*width: 85%;
-    margin: auto;*/
-}
 
 .team-section-title {
 	font-family: 'Roboto', sans-serif;
