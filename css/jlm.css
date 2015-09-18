@@ -74,7 +74,7 @@
 	font-weight: 500;
 	font-size: 22px;
 	text-align: center;
-	margin-top: 25px;
+	margin-top: 30px;
 	color: #000000;
 }
 
@@ -93,6 +93,7 @@
    font-weight: 400;
    font-size: 18px;
    color: #757579;
+   margin-bottom: 30px;
 }
 
 /* planet fitness section */
@@ -109,18 +110,21 @@
 .pf-paragraph {
 	padding-bottom: 3px;
 	font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-    color: #757579;
-    line-height: 30px;
+  font-weight: 300;
+  font-size: 18px;
+  color: #757579;
+  line-height: 30px;
 }
 
 hr {
 	border-top: 1px solid #757579;
 	width: 100%;
 	vertical-align: center;
-	margin-top: 30px;
-	margin-bottom: 30px;
+}
+
+.pf-pictures {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .pf-text-section2 {
@@ -129,6 +133,7 @@ hr {
    font-size: 18px;
    color: #757579;
    line-height: 30px;
+   text-align: left;
 }
 
 .pf-text-section3 {
@@ -138,87 +143,24 @@ hr {
    color: #757579;
    line-height: 30px;
    text-align: center;
-   padding-bottom: 15px;
+   margin-top: 30px;
 }
+
+.NYSE_photo {
+  margin-top: 30px;
+}
+
+
+/* customized transaction section */
+
+
+
+
 
 /* footer section */
 
-.footer {
-	margin-top: 25px;
-	margin-bottom: 25px;
-}
 
-.footer-title {
-   font-family: 'Roboto', sans-serif;
-   font-weight: 500;
-   font-size: 20px;
-   color: #5B1B57;
-   margin-top: 30px;
-   margin-bottom: auto;
-   
-}
-
-.footer-text-left {
-   font-family: 'Roboto', sans-serif;
-   font-weight: 400;
-   font-size: 18px;
-   color: #000000;
-   line-height: 30px;
-}
-
-#sitemap-links {
-	margin: auto;
-    margin-top: 61px;
-}
-
-.footer-text-links {
-   font-family: 'Roboto', sans-serif;
-   font-weight: 400;
-   font-size: 18px;
-   color: #000000;
-   text-align: right;
-}
 
 /* TEAM PAGE */
 
-
-.team-section-title {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 500;
-	font-size: 22px;
-	text-align: center;
-	margin-top: 35px;
-	margin-bottom: 30px;
-	color: rgba(186, 186, 191, 0.92);
-	background-color: #5b1b57;
-}
-
-.bio-name {
-   font-family: 'Roboto', sans-serif;
-   font-weight: 500;
-   font-size: 20px;
-   color: #5B1B57;
-   text-align: center;
-}
-
-.bio-title {
-   font-family: 'Roboto', sans-serif;
-   font-weight: 300;
-   font-size: 18px;
-   color: #5B1B57;
-   text-align: center;
-}
-
-.bio-text {
-   font-family: 'Roboto', sans-serif;
-   font-weight: 400;
-   font-size: 16px;
-   color: #757579;
-   line-height: 30px;
-   width: 85%;  
-}
-
-.footer-team {
-	background-color: rgba(186, 186, 191, 0.92);
-}
 
