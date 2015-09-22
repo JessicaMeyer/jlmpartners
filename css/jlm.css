@@ -259,5 +259,65 @@ a.footer-text-r {  /*need to change links for this to work */
 }
 
 /* TEAM PAGE */
+/* team section */
+
+#team-title {
+  margin-top: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #000000;
+}
+
+.name_title {
+  margin-top: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #5c1c58;
+}
+
+.bio {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #757579;
+  line-height: 30px;
+}
+
+.email_icon {
+  padding-left: 5px;
+  height: 20px;
+}
+
+/* core values section */
+
+.corevalues {
+  background-color: #5c1c58;
+  border-radius: 10px;
+  width: 80%;
+  display: block;
+  margin: 15px auto;
+  padding: 20px;
+}
+
+.core-values-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 10px;
+  color: #ffffff;
+}
+
+.core-values-text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+
 
 
