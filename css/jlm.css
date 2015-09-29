@@ -6,8 +6,7 @@
 
 .logo {
 	vertical-align: left;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	padding-top: 4px;
 }
 
 .navigation {
@@ -123,8 +122,11 @@ hr {
 }
 
 .pf-pictures {
-  margin-top: 30px;
   margin-bottom: 30px;
+}
+
+.pf-pictures-toprow {
+  margin-top: 30px;
 }
 
 .pf-text-section2 {
@@ -178,6 +180,18 @@ li {
   margin-bottom: 8px;
 }
 
+.transaction-section {
+  background-color: #f8f8f8;
+}
+
+.transaction-contactus {
+   float: right;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+   font-size: 18px;
+   color: #757579;
+   margin-bottom: 30px;
+}
 
 
 /* footer section */
@@ -232,6 +246,12 @@ a.footer-text-r {  /*need to change links for this to work */
   margin-bottom: 30px;
 }
 
+a.mailto {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+}
+
 /* copyright */
 
 .copyright-text-left {
@@ -261,8 +281,8 @@ a.footer-text-r {  /*need to change links for this to work */
 /* TEAM PAGE */
 /* team section */
 
-#team-title {
-  margin-top: 40px;
+#team-title-partners {
+  margin-top: 30px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 24px;
