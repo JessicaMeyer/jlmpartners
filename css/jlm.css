@@ -6,7 +6,8 @@
 
 .logo {
 	vertical-align: left;
-	padding-top: 4px;
+	padding-top: 6px;
+  /*height: 70px;*/
 }
 
 .navigation {
@@ -20,6 +21,7 @@
 	margin-right: 30px;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
+  color: #0a0a0a;
 }
 
 .nav-link2 {
@@ -28,6 +30,15 @@
 	margin-right: 30px;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
+  color: #0a0a0a;
+}
+
+a:hover.nav-link1 {
+  color: #5c1c58;
+}
+
+a:hover.nav-link2 {
+  color: #5c1c58;
 }
 
 /* hero section */
@@ -95,6 +106,55 @@
    margin-bottom: 30px;
 }
 
+/* customized transaction section */
+
+.transaction-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #757579;
+  line-height: 30px;
+  text-align: left;
+}
+
+.transaction-list {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #757579;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.transaction-section {
+  background-color: #f8f8f8;
+}
+
+.transaction-link2 {
+  float: right;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #757579;
+  margin-bottom: 30px;
+}
+
+span.contactus {
+  text-decoration: underline;
+}
+
+a:hover.transaction-link2 {
+  color: #5c1c58;
+}
+
+a:hover.transaction-link {
+  color: #5c1c58;
+}
+
 /* planet fitness section */
 
 .pf-section {
@@ -116,7 +176,7 @@
 }
 
 hr {
-	border-top: 1px solid #757579;
+	border-top: 1px solid #5c1c58;
 	width: 100%;
 	vertical-align: center;
 }
@@ -153,45 +213,6 @@ hr {
   margin-bottom: 30px;
 }
 
-
-
-
-/* customized transaction section */
-
-.transaction-text {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-size: 18px;
-  color: #757579;
-  line-height: 30px;
-  text-align: left;
-}
-
-.transaction-list {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-size: 18px;
-  color: #757579;
-  line-height: 30px;
-  margin-bottom: 30px;
-}
-
-li {
-  margin-bottom: 8px;
-}
-
-.transaction-section {
-  background-color: #f8f8f8;
-}
-
-.transaction-contactus {
-   float: right;
-   font-family: 'Roboto', sans-serif;
-   font-weight: 400;
-   font-size: 18px;
-   color: #757579;
-   margin-bottom: 30px;
-}
 
 
 /* footer section */
@@ -278,6 +299,10 @@ a.mailto {
   color: #5c1c58;
 }
 
+a:hover.jmv {
+  color: #5c1c58;
+}
+
 /* TEAM PAGE */
 /* team section */
 
@@ -303,11 +328,24 @@ a.mailto {
   font-size: 16px;
   color: #757579;
   line-height: 30px;
+  margin-top: -5px;
 }
 
 .email_icon {
   padding-left: 5px;
   height: 20px;
+}
+
+a:hover.jlmfinancial-link {
+  color: #5c1c58;
+}
+
+a.jlmfinancial-link {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #5c1c58;
+  line-height: 30px;
 }
 
 /* core values section */
@@ -340,4 +378,21 @@ a.mailto {
 }
 
 
+/* PORTFOLIO Page */
 
+#acquisition-title {
+  margin-top: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #000000;
+}
+
+.pf-tombstones {
+  display: block;
+  margin: 15px auto;
+}
+
+.acquisition-section {
+  margin-bottom: 30px;
+}
