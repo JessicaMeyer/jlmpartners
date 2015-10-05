@@ -107,10 +107,10 @@ a:hover.nav-link2 {
 
 .section-title {
 	font-family: 'Roboto', sans-serif;
-	font-weight: 500;
+	font-weight: 400;
 	font-size: 22px;
 	text-align: center;
-	margin-top: 30px;
+	margin-top: 20px;
 	color: #000000;
 }
 
@@ -332,8 +332,8 @@ a:hover.jmv {
 
 .bio {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
+  font-weight: 300;
+  font-size: 18px;
   color: #757579;
   line-height: 30px;
   margin-top: -5px;
@@ -367,14 +367,14 @@ a.jlmfinancial-link {
   border-radius: 5px;
   width: 80%;
   display: block;
-  margin: 15px auto;
+  margin: auto;
   padding: 10px;
 }
 
 .core-values-title {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 22px;
   text-align: center;
   padding-top: 10px;
   color: #FFFFFF;
@@ -404,20 +404,38 @@ a.jlmfinancial-link {
 /* PORTFOLIO Page */
 
 #acquisition-title {
-  margin-top: 40px;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 20px;
   color: #000000;
 }
 
 .pf-tombstones {
   display: block;
-  margin: 15px auto;
+  margin: auto;
 }
 
 .acquisition-section {
   margin-bottom: 30px;
+}
+
+
+.affiliate-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 15px;
+  color: #757579;
+}
+
+#franchise-affiliate-section {
+  margin-top: 30px;
+}
+
+.contact-link {
+  color: #5c1c58;
 }
 
 /* menu button group for all pages at top */
