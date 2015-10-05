@@ -438,6 +438,10 @@ a.jlmfinancial-link {
   color: #5c1c58;
 }
 
+.pf_logo_portfolio {
+  margin: auto;
+  display: block;
+}
 /* menu button group for all pages at top */
 
 #menu-button-group {
