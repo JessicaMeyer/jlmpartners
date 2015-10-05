@@ -42,7 +42,7 @@ a:hover.nav-link2 {
   height: 500px;
   width: 100%;
   /*background-color: #5c1c58;*/
-  background-image:url("https://raw.githubusercontent.com/JessicaMeyer/jlmpartners/master/img/PF21.jpg");*/
+  background-image:url("https://raw.githubusercontent.com/JessicaMeyer/jlmpartners/master/img/PF1.JPG");*/
   background-repeat: no-repeat;;
   background-size: cover;
   background-position: center;
@@ -58,20 +58,20 @@ a:hover.nav-link2 {
 .hero-title {
   color: #FFFFFF;
   font-size: 22px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 600;
 }
 
 .hero-box {
   border: 1px solid #5c1c58;
   background-color: #5c1c58;
-  padding: 10px;
+  padding: 15px;
 }
 
 .hero-title-box {
   border: 1px solid #5c1c58;
   background-color: #5c1c58;
-  padding: 10px;
+  padding: 15px;
   margin-top: 10px;
 }
 
@@ -128,7 +128,7 @@ a:hover.nav-link2 {
    font-family: 'Roboto', sans-serif;
    font-weight: 400;
    font-size: 18px;
-   color: #757579;
+   color: #5c1c58;
    margin-bottom: 30px;
 }
 
@@ -157,7 +157,7 @@ li {
 }
 
 .transaction-section {
-  background-color: #f8f8f8;
+  background-color: #FFFFFF;
 }
 
 .transaction-link2 {
@@ -165,7 +165,7 @@ li {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 18px;
-  color: #757579;
+  color: #5c1c58;
   margin-bottom: 30px;
 }
 
@@ -246,41 +246,23 @@ hr {
 /* footer */
 
 .footer-section {
-  background-color: #5c1c58;
+  background-color: #f8f8f8;
 }
 
-.text-right {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  color: #ffffff;
-}
 
 .footer-title {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 600;
-  color: #ffffff;
+  color: #5c1c58;
+  font-size: 18px;
 }
 
 .footer-text-left {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  color: #ffffff;
+  color: #5c1c58;
   line-height: 8px;
-}
-
-.footer-text-r {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  color: #ffffff;
-  display: block;
-  margin-top: 15px;
-  float: right;
-  clear: both;
-}
-
-a.footer-text-r {  /*need to change links for this to work */
-  color: #ffffff;
-  text-decoration: none;
+  font-size: 17px;
 }
 
 .left-footer {
@@ -288,21 +270,21 @@ a.footer-text-r {  /*need to change links for this to work */
   margin-bottom: 30px;
 }
 
-.right-footer {
-  margin-top: 30px;
-  margin-bottom: 30px;
+a.mailto {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #5c1c58;
 }
 
-a.mailto {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  color: #ffffff;
+.map {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /* copyright */
 
 .copyright-text-left {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 12px;
   color: #0a0a0a;
@@ -311,7 +293,7 @@ a.mailto {
 
 
 #copyright-text {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 12px;
   color: #0a0a0a;
@@ -334,7 +316,7 @@ a:hover.jmv {
 
 #team-title-partners {
   margin-top: 30px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 24px;
   color: #000000;
@@ -342,14 +324,14 @@ a:hover.jmv {
 
 .name_title {
   margin-top: 30px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 600;
   font-size: 18px;
   color: #5c1c58;
 }
 
 .bio {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: #757579;
@@ -367,22 +349,26 @@ a:hover.jlmfinancial-link {
 }
 
 a.jlmfinancial-link {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: #5c1c58;
   line-height: 30px;
 }
 
-/* core values section */
+/* core values section on home page and team page */
+
+.corevalues-home {
+  background-color: #FFFFFF;
+}
 
 .corevalues {
   background-color: #5c1c58;
-  border-radius: 10px;
+  border-radius: 5px;
   width: 80%;
   display: block;
   margin: 15px auto;
-  padding: 20px;
+  padding: 10px;
 }
 
 .core-values-title {
@@ -391,16 +377,27 @@ a.jlmfinancial-link {
   font-size: 24px;
   text-align: center;
   padding-top: 10px;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 .core-values-text {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 30px;
   text-align: center;
   color: #ffffff;
+  margin-top: 15px;
+}
+
+.core-values-home {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #5c1c58;
+  margin-top: 15px;
 }
 
 
@@ -408,7 +405,7 @@ a.jlmfinancial-link {
 
 #acquisition-title {
   margin-top: 40px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 24px;
   color: #000000;
@@ -421,4 +418,27 @@ a.jlmfinancial-link {
 
 .acquisition-section {
   margin-bottom: 30px;
+}
+
+/* menu button group for all pages at top */
+
+#menu-button-group {
+  display: inline-block;
+  margin-top: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#highlight-button {
+  background-color: #6c3078;
+  color: #f6d106;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.jlm-header {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  color: #5c1c58;
+  margin-top: 40px;
 }
