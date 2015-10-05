@@ -62,6 +62,19 @@ a:hover.nav-link2 {
   font-weight: 600;
 }
 
+.hero-box {
+  border: 1px solid #5c1c58;
+  background-color: #5c1c58;
+  padding: 10px;
+}
+
+.hero-title-box {
+  border: 1px solid #5c1c58;
+  background-color: #5c1c58;
+  padding: 10px;
+  margin-top: 10px;
+}
+
 .hero-text {
   color: #FFFFFF;
   font-size: 20px;
@@ -70,12 +83,13 @@ a:hover.nav-link2 {
 }
 
 #hero-button1 {
-  background-color: #dc2028;
+  background-color: #f6d106;
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   text-align: center;
-  color: #ffffff;
+  color: #5c1c58;
+  margin-top: 10px;
 }
 
 #hero-button2 {
@@ -84,7 +98,8 @@ a:hover.nav-link2 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   text-align: center;
-  color: #dc2028;
+  color: #5c1c58;
+  margin-top: 10px;
 }
 
 
