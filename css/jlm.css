@@ -450,6 +450,14 @@ a.jlmfinancial-link {
   color: #5c1c58;
 }
 
+.jlminvest {
+  color: #dc2028;
+  text-decoration: underline;
+}
+
+a:hover.jlminvest {
+  color: #dc2028;
+}
 /*.pf_logo_portfolio {
   margin: auto;
   display: block;
