@@ -57,7 +57,7 @@ a:hover.nav-link2 {
 
 .hero-title {
   color: #FFFFFF;
-  font-size: 22px;
+  font-size: 25px;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
 }
@@ -65,19 +65,19 @@ a:hover.nav-link2 {
 .hero-box {
   border: 1px solid #5c1c58;
   background-color: #5c1c58;
-  padding: 15px;
+  padding: 2px;
 }
 
 .hero-title-box {
   border: 1px solid #5c1c58;
   background-color: #5c1c58;
-  padding: 15px;
-  margin-top: 10px;
+  padding: 3px;
+  margin-top: 5px;
 }
 
 .hero-text {
   color: #FFFFFF;
-  font-size: 20px;
+  font-size: 23px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
