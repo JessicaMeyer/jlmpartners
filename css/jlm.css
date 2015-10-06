@@ -124,7 +124,7 @@ a:hover.nav-link2 {
 }
 
 .transaction-link {
-   float: right;
+   /*float: right;*/
    font-family: 'Roboto', sans-serif;
    font-weight: 400;
    font-size: 18px;
@@ -132,7 +132,18 @@ a:hover.nav-link2 {
    margin-bottom: 30px;
 }
 
+.investment-photo {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+
 /* customized transaction section */
+
+.transaction-photo {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
 
 .transaction-text {
   font-family: 'Roboto', sans-serif;
@@ -279,6 +290,7 @@ a.mailto {
 .map {
   margin-top: 20px;
   margin-bottom: 20px;
+  width: 80%;
 }
 
 /* copyright */
@@ -438,10 +450,19 @@ a.jlmfinancial-link {
   color: #5c1c58;
 }
 
-.pf_logo_portfolio {
+/*.pf_logo_portfolio {
+  margin: auto;
+  display: block;
+}*/
+
+.pf_tombstone_picture {
+  height: 250px;
+  width: 250px;
   margin: auto;
   display: block;
 }
+
+
 /* menu button group for all pages at top */
 
 #menu-button-group {
