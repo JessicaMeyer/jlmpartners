@@ -36,7 +36,7 @@ a:hover.nav-link2 {
   color: #5c1c58;
 }
 
-/* hero section */
+/* hero section and home page */
 
 .hero-image {
   height: 500px;
@@ -65,13 +65,13 @@ a:hover.nav-link2 {
 .hero-box {
   border: 1px solid #5c1c58;
   background-color: #5c1c58;
-  padding: 2px;
+  padding: 8px;
 }
 
 .hero-title-box {
   border: 1px solid #5c1c58;
   background-color: #5c1c58;
-  padding: 3px;
+  padding: 8px;
   margin-top: 5px;
 }
 
@@ -100,6 +100,16 @@ a:hover.nav-link2 {
   text-align: center;
   color: #5c1c58;
   margin-top: 10px;
+}
+
+.core-values-home {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #757579;
+  margin-top: 15px;
 }
 
 
@@ -251,78 +261,6 @@ hr {
 }
 
 
-
-/* footer section */
-
-/* footer */
-
-.footer-section {
-  background-color: #f8f8f8;
-}
-
-
-.footer-title {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 600;
-  color: #5c1c58;
-  font-size: 18px;
-}
-
-.footer-text-left {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  color: #5c1c58;
-  line-height: 8px;
-  font-size: 17px;
-}
-
-.left-footer {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-a.mailto {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  color: #5c1c58;
-}
-
-.map {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  width: 80%;
-}
-
-/* copyright */
-
-.copyright-text-left {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-size: 12px;
-  color: #0a0a0a;
-  margin: auto;
-}
-
-
-#copyright-text {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-size: 12px;
-  color: #0a0a0a;
-}
-
-#copyright-section {
-  margin-top: 12px;
-}
-
-.jmv {
-  color: #5c1c58;
-}
-
-a:hover.jmv {
-  color: #5c1c58;
-}
-
 /* TEAM PAGE */
 /* team section */
 
@@ -368,7 +306,7 @@ a.jlmfinancial-link {
   line-height: 30px;
 }
 
-/* core values section on home page and team page */
+/* core values section on team page */
 
 .corevalues-home {
   background-color: #FFFFFF;
@@ -399,16 +337,6 @@ a.jlmfinancial-link {
   line-height: 30px;
   text-align: center;
   color: #ffffff;
-  margin-top: 15px;
-}
-
-.core-values-home {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 30px;
-  text-align: center;
-  color: #5c1c58;
   margin-top: 15px;
 }
 
@@ -451,13 +379,14 @@ a.jlmfinancial-link {
 }
 
 .jlminvest {
-  color: #dc2028;
+  color: #5c1c58;
   text-decoration: underline;
 }
 
 a:hover.jlminvest {
-  color: #dc2028;
+  color: #5c1c58;
 }
+
 /*.pf_logo_portfolio {
   margin: auto;
   display: block;
@@ -471,7 +400,7 @@ a:hover.jlminvest {
 }
 
 
-/* menu button group for all pages at top */
+/* menu button group for all pages at top (except index) */
 
 #menu-button-group {
   display: inline-block;
@@ -492,4 +421,75 @@ a:hover.jlminvest {
   font-weight: 600;
   color: #5c1c58;
   margin-top: 40px;
+}
+
+
+/* FOOTER SECTION */
+
+
+.footer-section {
+  background-color: #f8f8f8;
+}
+
+
+.footer-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  color: #5c1c58;
+  font-size: 18px;
+}
+
+.footer-text-left {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #5c1c58;
+  line-height: 8px;
+  font-size: 17px;
+}
+
+.left-footer {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+a.mailto {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #5c1c58;
+}
+
+.map {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+/* COPYRIGHT */
+
+.copyright-text-left {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  color: #0a0a0a;
+  margin: auto;
+}
+
+
+#copyright-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  color: #0a0a0a;
+}
+
+#copyright-section {
+  margin-top: 12px;
+}
+
+.jmv {
+  color: #5c1c58;
+}
+
+a:hover.jmv {
+  color: #5c1c58;
 }
